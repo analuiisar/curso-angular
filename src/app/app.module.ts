@@ -19,6 +19,7 @@ import {MatButtonModule} from '@angular/material/button';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
