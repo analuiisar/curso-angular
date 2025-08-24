@@ -1,1 +1,68 @@
-<p>cadastro works!</p>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    
+</head>
+
+<body>
+    <form action class="formulario">
+
+        <label for="Nome" class="label1">Nome:</label>
+        <input type class="input1" name="Nome" id="Nome">
+
+        <label for="CPF" class="label1">CPF:</label>
+        <input type class="input1" name="CPF" id="CPF">
+
+        <label for="Data de nascimento" class="label1">Data de nascimento:</label>
+        <input type class="input1" name="Data de nascimento" id="Data de nascimento">
+
+        <label for="Telefone" class="label1">Telefone:</label>
+        <input type class="input1" name="Telefone" id="Telefone">
+
+        <label for="Como conheceu a barbearia" class="label1">Como conheceu a barbearia:</label>
+        <input type class="input1" name="Como conheceu a barbearia" id="Como conheceu a barbearia">
+        
+        <button class="botao"> Salvar </button>
+
+    </form>
+
+</body>
+
+<style>
+    .botao{
+        background-color: #ddd;
+        color: black;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .botao:hover{
+        background-color: darkgray;
+        color: white;
+    }
+
+    .formulario{
+        width: 500px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .label1{
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    .input1{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+</style>
