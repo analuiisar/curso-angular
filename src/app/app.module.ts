@@ -7,6 +7,10 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { ServicosComponent } from './servicos/servicos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -18,10 +22,15 @@ import {MatButtonModule} from '@angular/material/button';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule
-
+    MatButtonModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

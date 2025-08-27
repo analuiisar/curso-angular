@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
-  background: linear-gradient(135deg, #949196, #ec8eec);
+  background: linear-gradient(135deg, #000000, #868686);
   margin: 0;
   padding: 0;
   color: #fff;
@@ -10,12 +10,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 30px 20px;
+  background: linear-gradient(135deg, #000000, #868686);
+  padding: 8px 10px;
 }
 
 .logo {
-  width: 120px;
+  width: 100px;
   height: auto;
 }
 
@@ -23,5 +23,6 @@ header {
   width: 90%;
   height: auto;
   display: block;
-  border-radius: 30px;
+  border-radius: 50px;
 }
+
