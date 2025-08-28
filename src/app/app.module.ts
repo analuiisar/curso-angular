@@ -12,6 +12,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatTableModule} from '@angular/material/table';
+import {MatCardModule} from '@angular/material/card';
+
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import {MatTableModule} from '@angular/material/table';
     MatInputModule,
     MatMenuModule,
     MatTableModule,
+    MatCardModule,
+   
     
   
   
