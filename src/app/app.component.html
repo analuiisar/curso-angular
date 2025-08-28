@@ -3,16 +3,24 @@
         <img src="../assets/logo easy cut.png" alt="Logo">
     </div>
 
-    <div>
-        <button mat-mini-fab disabled aria-label="Example icon button with a home icon">
+    <!-- <div>
+        <button mat-mini-fab disabled aria-label class="Example icon button with a home icon">
             <mat-icon>home</mat-icon>
         </button>
-    </div>
+    </div> -->
+
+    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>Home</button>
+        <button mat-menu-item>Cadastro</button>
+        <button mat-menu-item>Serviços</button>
+
+    </mat-menu>
+
 
 </header>
 
 <body>
-<router-outlet></router-outlet>
+    <router-outlet></router-outlet>
 
 </body>
-

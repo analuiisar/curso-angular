@@ -15,38 +15,42 @@
         <label for="Como conheceu a barbearia" class="label1">Como conheceu a barbearia:</label>
         <input type class="input1" name="Como conheceu a barbearia" id="Como conheceu a barbearia">
         
-        <button class="botao"> Salvar </button>
+        <!-- <button class="botao"> Salvar </button> -->
+
+        <button mat-raised-button>Cadastrar</button>
 
     </form>
 
 
-  <mat-form-field appearance="legacy">
-    <mat-label>Legacy form field</mat-label>
+  <mat-form-field appearance="fill">
+    <mat-label>Nome Completo</mat-label>
     <input matInput placeholder="Placeholder">
-    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-    <mat-hint>Hint</mat-hint>
-  </mat-form-field>
-
-
-  <mat-form-field appearance="standard">
-    <mat-label>Standard form field</mat-label>
-    <input matInput placeholder="Placeholder">
-    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-    <mat-hint>Hint</mat-hint>
+    <mat-icon matSuffix>*</mat-icon>
+    <mat-hint>Nome e sobrenome</mat-hint>
   </mat-form-field>
 
 
   <mat-form-field appearance="fill">
-    <mat-label>Fill form field</mat-label>
+    <mat-label>CPF</mat-label>
     <input matInput placeholder="Placeholder">
-    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-    <mat-hint>Hint</mat-hint>
+    <mat-icon matSuffix>*</mat-icon>
+    <mat-hint>000.000.000-00</mat-hint>
   </mat-form-field>
 
-  <mat-form-field appearance="outline">
-    <mat-label>Outline form field</mat-label>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Data de Nascimento</mat-label>                        <!-- Colocar date picker --> 
     <input matInput placeholder="Placeholder">
-    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-    <mat-hint>Hint</mat-hint>
+    <mat-icon matSuffix>*</mat-icon>
+    <mat-hint>00/00/0000</mat-hint>
   </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Como conheceu a barbearia</mat-label>
+    <input matInput placeholder="Placeholder">
+    <mat-icon matSuffix>*</mat-icon>
+    <mat-hint>Livre</mat-hint>
+  </mat-form-field>
+
+  <!-- <a mat-raised-button href="https://www.google.com/" target="_blank">Cadastrar</a> -->
 

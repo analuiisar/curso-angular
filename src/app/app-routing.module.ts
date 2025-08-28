@@ -4,7 +4,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { ServicosComponent } from './servicos/servicos.component';
 
 const routes: Routes = [
-  {path: '', component: CadastroComponent},
+  // {path: '', component: CadastroComponent},
   {path: 'cadastro', component: CadastroComponent},
   {path: 'servicos', component: ServicosComponent}
 ];
