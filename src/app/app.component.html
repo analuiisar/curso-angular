@@ -4,25 +4,18 @@
     </div>
 
     <div>
-        <button mat-mini-fab disabled aria-label class="Example icon button with a home icon">
+        <button mat-mini-fab aria-label routerLink="/agendamento">
             <mat-icon>home</mat-icon>
         </button>
-
-        
     </div>
 
     <button mat-button [matMenuTriggerFor]="menu">Menu</button>
     <mat-menu #menu="matMenu">
-        <button mat-menu-item routerLink="/cadastro">Cadastro</button>
+        <button mat-menu-item routerLink="/agendamento">Agendamento</button>
         <button mat-menu-item routerLink="/servicos">Serviços</button>
     </mat-menu>
-
-
-
 </header>
 
 <body>
-    
     <router-outlet></router-outlet>
-
 </body>
