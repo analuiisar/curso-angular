@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AgendamentoComponent implements OnInit {
 
-  mostraCadastro: boolean = false;
+  mostraCadastro: boolean = false;   /* Função para mostrar o formulário de cadastro quando clicar no botão agendar*/ 
 
   constructor() { }
 

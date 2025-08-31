@@ -5,7 +5,7 @@
       <mat-card-title>Buzz Cut</mat-card-title>
       <mat-card-subtitle>15 - 30 minutos</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image src="/assets/buzz cut.jpg" alt="Buzz Cut">
+    <img mat-card-image src="\assets\buzz cut 2.png" alt="Buzz Cut">
     <mat-card-content>
       <p>
         Corte de comprimento curto uniforme realizado com máquina e tesoura. Ideal para quem procura um corte rápido e
@@ -13,7 +13,7 @@
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button (click)="mostraCadastro = true">AGENDAR</button> <!-- mesma coisa que Onclick -->
+      <button mat-button (click)="mostraCadastro = true">AGENDAR</button> <!-- mesma coisa que Onclick, chama a função para mostrar o formulario de cadastro quando clica em agendar -->
     </mat-card-actions>
   </mat-card>
 
@@ -22,7 +22,7 @@
       <mat-card-title>Fade/Degradê</mat-card-title>
       <mat-card-subtitle>20 - 45 minutos</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image src="/assets/fade.jpg" alt="Fade/Degradê">
+    <img mat-card-image src="\assets\fade 2.png" alt="Fade/Degradê">
     <mat-card-content>
       <p>
         Corte que cria uma transição suave entre diferentes comprimentos do cabelo. Pode ser adaptado a diferentes tipos
@@ -39,7 +39,7 @@
       <mat-card-title>Mullet Moderno</mat-card-title>
       <mat-card-subtitle>30 - 60 minutos</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image src="/assets/mullet.jpg" alt="Mullet Moderno">
+    <img mat-card-image src="\assets\mullet 2.png" alt="Mullet Moderno">
     <mat-card-content>
       <p>
         Corte que combina comprimentos diferentes com camadas e texturas. Mantem cabelos mais curtos na frente e
@@ -56,7 +56,7 @@
       <mat-card-title>Old Money</mat-card-title>
       <mat-card-subtitle>30 - 60 minutos</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image src="/assets/old money.jpg" alt="Old Money">
+    <img mat-card-image src="\assets\old money 2.png" alt="Old Money">
     <mat-card-content>
       <p>
         Corte de comprimento médio a curto, com foco no topo da cabeça, e laterais e nucas bem aparadas. Transmite
@@ -94,6 +94,8 @@
     <mat-hint>00/00/0000</mat-hint>
   </mat-form-field>
 
+
+  <!-- DATE PICKER -->
   <mat-form-field appearance="fill">
     <mat-label>Choose a date</mat-label>
     <input matInput [matDatepicker]="picker">
@@ -102,7 +104,7 @@
     <mat-datepicker #picker></mat-datepicker>
   </mat-form-field>
 
-
+  <!-- FORM FIELD -->
   <mat-form-field appearance="fill">
     <mat-label>Horário</mat-label>
     <input matInput placeholder="Placeholder">
